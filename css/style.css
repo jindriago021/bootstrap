@@ -1,0 +1,350 @@
+body{
+  position: fixed;
+  margin-bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+
+
+.carousel-inner .vertical {
+  height: 100%;
+}
+.carousel-inner.vertical > .item {
+  -webkit-transition: .6s ease-in-out top;
+  -o-transition: .6s ease-in-out top;
+  transition: .6s ease-in-out top;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-inner > .item.next,
+    .carousel-inner > .item.active.right {
+      -webkit-transform: translate3d( 0, 0, 0);
+      transform: translate3d( 0, 0, 0);
+    }
+    .carousel-inner > .item.prev,
+    .carousel-inner > .item.active.left {
+      -webkit-transform: translate3d( 0, 0, 0);
+      transform: translate3d( 0, 0, 0);
+    }
+    .carousel-inner > .item.next.left,
+    .carousel-inner > .item.prev.right,
+    .carousel-inner > .item.active {
+       -webkit-transform: translate3d(0, 0, 0);
+       transform: translate3d(0, 0, 0);
+    }
+}
+
+
+.carousel-indicators{
+
+    position: absolute;
+    top: -25%;
+    left: 42%;
+    height: 100vh;
+    margin: 0%;
+    padding: 0%;
+    width: 13%;
+    transform: rotate(180deg);
+}
+
+.carousel-indicators .active {
+  width: 20px;
+  height: 20px;
+}
+
+li:hover { 
+    height: 133px;
+    width: 400px;
+    background-color: white;
+    margin-right: 100%;
+}
+
+.carousel-indicators li {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    text-align: -webkit-right;
+    transform: rotate(180deg);
+    transition: 1s;
+}
+
+.enlance{
+  color: white;
+  text-decoration: none;
+}
+
+-
+
+.caja-principal{
+  width: 85%;
+}
+
+
+.fondoblanco{
+  background-image: url(../img/background.jpg);
+  height: 100vh;
+  width: 100%;
+}
+
+.fondoazul{
+  background-image: url(../img/background_2.jpg);
+  height: 100vh;
+  width: 100%;
+}
+
+.logo{
+  position: absolute;
+  right: 25%;
+  bottom: 25%;
+}
+
+
+.foto_estudiante{
+  position: fixed;
+  width: 18%;
+  right: 28%;
+  bottom: 18%;
+
+}
+
+.alumno{
+    position: fixed; 
+    width: 550px;
+    height: 46px;
+    right: 18%;
+    bottom: 29%;
+    background-color: rgba(69, 156, 230, 0.65);
+    border: #5D5353 solid;
+    border-width: 4px;
+
+}
+
+.alumno2{
+    position: fixed; 
+    width: 550px;
+    height: 46px;
+    right: 18%;
+    bottom: 29%;
+    background-color: rgba(255, 255, 255, 0.65);
+    border: #5D5353 solid;
+    border-width: 4px;
+
+}
+
+.nombre{
+    text-align: center;
+    margin-top: -3px;
+    font-size: 32px;
+    font-family: monospace;
+
+}
+
+.nombre2{
+    text-align: center;
+    color: black;
+    margin-top: -3px;
+    font-size: 32px;
+    font-family: monospace;
+
+}
+
+.textos{
+  position: fixed;
+  bottom: 29%;
+  width: 370px;
+  height: 400px;
+  background-color: rgba(69, 156, 230, 0.65);
+  border: #5D5353 solid;
+  border-width: 2px;
+  left: 7%;
+
+
+}
+
+.textos2{
+  position: fixed;
+  color: black;
+  bottom: 29%;
+  width: 370px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.65);
+  border: #5D5353 solid;
+  border-width: 2px;
+  left: 7%;
+
+
+}
+
+
+.textosfinal{
+  position: absolute;
+  left: 3%;
+  top: 3%;
+  right: 3%;
+  bottom: 3%;
+  text-align: justify;
+}
+
+#facebook{
+  position:absolute;
+  left: 22%;
+}
+
+#instagram{
+  position:absolute;
+  left: 47%;
+}
+
+#twitter{
+  position:absolute;
+  left: 72%;
+}
+
+.panel{
+  position: absolute;
+  width: 15%;
+  background: black;
+  bottom: -25px;
+  right: 0;
+  top: 0;
+}
+
+.flechaarriba{
+  transform: rotate(90deg);
+  margin-top: -93vh;
+  margin-left: 33vw;
+}
+
+.flechaabajo{
+  transform: rotate(90deg);
+  margin-bottom: -93vh;
+  margin-right: 51vw;
+}
+
+#machillanda{
+  position: fixed;
+  width: 22%;
+  right: 26%;
+  bottom: 18%;
+}
+
+#enigo{
+  position: fixed;
+  width: 12%;
+  right: 30%;
+  bottom: 18%;
+}
+
+#pelonz{
+  position: fixed;
+  width: 12%;
+  right: 33%;
+  bottom: 18%;
+}
+
+#josedeleon{
+  position: fixed;
+  width: 12%;
+  right: 33%;
+  bottom: 18%;
+}
+
+#joserangel{
+  position: fixed;
+  width: 12%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#emanuel{
+  position: fixed;
+  width: 12%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#oscar{
+  position: fixed;
+  width: 17%;
+  right: 26%;
+  bottom: 18%;
+}
+
+#frank{
+  position: fixed;
+  width: 12%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#letty{
+  position: fixed;
+  width: 16%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#armando{
+  position: fixed;
+  width: 15%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#roman{
+  position: fixed;
+  width: 28%;
+  right: 25%;
+  bottom: 23%;
+}
+
+#joserodriguez{
+  position: fixed;
+  width: 18%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#carlito{
+  position: fixed;
+  width: 12%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#niolberth{
+  position: fixed;
+  width: 15%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#julius{
+  position: fixed;
+  width: 12%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#gabriel{
+  position: fixed;
+  width: 12%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#nacho{
+  position: fixed;
+  width: 12%;
+  right: 32%;
+  bottom: 18%;
+}
+
+#miguel{
+  position: fixed;
+  width: 12%;
+  right: 32%;
+  bottom: 18%;
+}
